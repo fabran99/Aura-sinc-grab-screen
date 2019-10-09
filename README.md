@@ -22,4 +22,5 @@ pyinstaller screen_colors.py
 then put color.txt, package.json and change_color.json in dist/screen_colors
 
 cd dist/screen_colors
+
 npm install
