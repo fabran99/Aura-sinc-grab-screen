@@ -1,6 +1,15 @@
 # Aura-sinc-grab-screen
 Grab the dominant color from the screen and put it in the rgb light from your aura sync motherboard
 
+### Instalation
+npm install
+
+pip install -r requirements.txt
+
+python screen_colors.py
+
+# Customize the function
+
 It uses the bindings from https://github.com/DanielRamosAcosta/aura-sdk
 You will probably need to change the change_color.js file, to adapt the controller bindings to the hardware you have.
 
@@ -19,7 +28,7 @@ You can make it an executable with Pyinstaller.
 
 pyinstaller screen_colors.py
 
-### then put color.txt, package.json and change_color.json in dist/screen_colors
+### Put color.txt, package.json and change_color.json in dist/screen_colors
 
 cd dist/screen_colors
 
