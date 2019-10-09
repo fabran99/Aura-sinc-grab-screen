@@ -14,3 +14,12 @@ to get the hue of the color, then save the color to color txt. This is an infini
 change_color grabs the color from the txt and change the rgb color to match the hue, making the animation gradient between the last color and the new one.
 
 
+## Make it executable
+You can make it an executable with Pyinstaller.
+
+pyinstaller screen_colors.py
+
+then put color.txt, package.json and change_color.json in dist/screen_colors
+
+cd dist/screen_colors
+npm install
